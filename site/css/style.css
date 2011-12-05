@@ -50,7 +50,7 @@
    2. Colors
    ========================================================================== */
   
-@import url('colors/gray.css');
+@import url('colors/green_alt.css');
 	
 /* ==========================================================================
    3. Background
@@ -349,7 +349,7 @@ footer a, footer a:visited {
 
 /* ------- 6.3.2 Home Page ------- */
 
-#home h1 {
+#me h1 {
 	text-align: center;
 	width: 120px;
 	margin: 0;
