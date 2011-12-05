@@ -1,0 +1,130 @@
+/* 'Squares' Template Color Preset:
+ *           == RED ==
+ */
+
+/* Main background and panel color */
+.light, .panel {
+	background-color: #FBFBFB;
+}
+
+/* Currently not used anywhere, declared for consistency */
+.light-text {
+	color: #FBFBFB;	
+}
+
+/* Used on portfolio timer bar */
+.semi-light { 
+	background-color: #F3F3F3;
+}
+
+/* Active button background color */
+.portfolio-button.active, #main-navigation a.active {
+	background-color: #FC4747;
+}	
+
+/* Used with text on dark backgrounds */
+.semi-light-text, #portfolio a { 
+	color: #F3F3F3;
+}
+
+/* Hover color for portfolio nav buttons and contact form submit button */
+.mid-color, .portfolio-button:hover, #contact-submit:hover {
+	background-color: #FF5454;
+}
+
+/* Header subtitle color */
+.mid-color-text {
+	color: #BF9B9B;
+}
+
+/* Main navigation hover and contact form submit button color */
+.semi-dark, #main-navigation li:hover, .portfolio-button {
+	background-color: #575757;
+}
+
+/* Graph bar background */
+.bar {
+	background-color: #E30000;
+}
+
+/* Standard text and header color */
+.semi-dark-text, #social-links a, #contact-info a {
+	color: #575757;
+}
+/* Header sur name color 
+ * (Same as semi-dark-text for this color preset)
+ */
+.surname-color {
+	color: #575757;	
+}
+
+/* Header first name color 
+* (Same as active button background color for this color preset)
+*/
+#name-header {
+	color: #DB2323;
+}
+
+/* Main navigation background color */
+.dark {
+	background-color: #232323;
+}
+
+/* Portfolio info box background */
+.dark-semi-transparent {
+	background-color: #333333;
+	background-color: rgba(33,33,33,0.8);
+}
+
+/* Header surname, main page header (h1), link in paragraph hover and separate link color */ 
+.dark-text, a, a:visited, p a:visited:hover, p a:hover {
+	color: #232323;
+}
+
+/* Default link hover and paragraph (not hover) link color */
+p a, p a:visited, a:hover, a:visited:hover, #portfolio a:hover, #portfolio a:visited:hover, 
+#contact-info a:hover, #contact-info a:visited:hover, #social-links a:hover, #social-links a:visited:hover {
+	color: #00AFD6;
+}
+
+/* The left-aligned color strips/borders on the different pages */
+.outer-border {
+	background-color: #DB2323;
+}
+
+.inner-border {
+	background-color: #575757;
+}
+
+/* Color for placeholder text on form inputs 
+ * (Separate lines required for browser interpretation)
+ */
+.placeholder {
+	color: #999;	
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #999;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #999;
+}
+
+/* Error message color (on contact form) */
+.error {
+	color: #DE0000;
+}
+
+/* Success message color (on contact form) */
+.success {
+	color: #3A9605;
+}	
+
+/* Bar graph left border (line) */
+.bar-graph {
+	border-left-color: #999999 !important;
+}
+
+/* Input and text area border */
+input, textarea {
+	border-color: #999999 !important;	
+}
